@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Holocam : MonoBehaviour
 {
+    [Tooltip("Space between camera and target, or center of FOV")]
     public float cameraSpacing;
+    [Tooltip("Target that the camera will follow")]
     public Transform target;
     private bool active = true;
 

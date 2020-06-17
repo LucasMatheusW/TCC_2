@@ -7,9 +7,18 @@ using Crosstales.RTVoice.Model.Enum;
 public class DialogController : MonoBehaviour
 {
     public bool loaded;
+    private DialogController instance;
     void Start()
     {
-        DontDestroyOnLoad(this);       
+        if(instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(this);       
+        }
+        else
+        {
+            DestroyImmediate(this.gameObject);
+        }
     }
 
     void Update() {
