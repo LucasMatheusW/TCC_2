@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Holocam : MonoBehaviour
 {
@@ -72,6 +73,10 @@ public class Holocam : MonoBehaviour
     public void SetActive(bool active)
     {
         this.active = active;
+    }
+
+    public void PyramidHelper(){
+        SceneManager.LoadScene("PyramidHelper");
     }
 }
 
