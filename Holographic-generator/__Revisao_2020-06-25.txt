@@ -1,0 +1,26 @@
+
+==> Audio "pipocando".. não dava para entender.
+Usar algo para fixar a camera.
+Ter um roteiro do que vai mostrar.
+
+__
+
+_ Dúvidas:
+  - [XX:XX] 
+
+_ Não implementou
+  - [XX:XX] 
+
+_ Erros
+  - [XX:XX] 
+
+_ Ajustes
+  - [XX:XX] 
+
+-------------
+
+Objetivos:
+
+
+Requisitos:
+
